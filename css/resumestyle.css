@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:100);
-@import url(https://fonts.googleapis.com/css?family=Droid+Sans+Mono);
+@import url(https://fonts.googleapis.com/css?family=Jura:500);
 
 /*--------------------------------------*/
 
@@ -110,20 +110,29 @@ body
 	margin-left: 30px;
 }
 
-.submitButton{
-	border-radius: 10px;
-	padding: 3px 3px;
-}
-
 .messageForm{
 	width:500px;
 	height: 200px;
 	font-size: 15pt;
 	font-weight: bold;
+	border-radius: 10px;
+}
+
+.emailForm{
+	border-radius: 10px;
+}
+
+.nameForm{
+	border-radius: 10px;
 }
 
 .submitButton{
-	box-shadow: 5px 5px 2px;
+	border-radius: 10px;
+	padding: 3px 3px;
+}
+.resetButton{
+	border-radius: 10px;
+	padding: 3px 3px;
 }
 
 /*---------------------------*/
@@ -201,6 +210,11 @@ body
 .fa-laptop{
 	padding-left: 10pt;
 }
+
+.skillsPic{
+	width: 75%;
+	padding-left: 50px;
+}
 /*---------------------------------*/
 
 
@@ -244,13 +258,13 @@ h5
 p, q, cite
 	{
 	text-align: left;
-	font: 12pt "Droid Sans Mono";
+	font: 15pt "Jura";
 
 }
 
 ol, dl, li, ul
 	{
-		font: 12pt "Droid Sans Mono";
+		font: 15pt "Jura";
 		list-style-position: inside;
 
 }
