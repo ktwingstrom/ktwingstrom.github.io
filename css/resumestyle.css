@@ -42,14 +42,17 @@
 
 /* Headers
 -----------------------------------------------------------------------------*/
-
+.site{
+	background-image: url("../img/headerBackground.jpg");
+	height: auto;
+	width: 100%;
+}
 .mainHeader{
 	color: #000;
 	background-image: url("../img/mainHeaderImage.jpg");
 	background-size: contain;
 	font-weight: bold;
 }
-
 
 .connectHeader{
 	font-size: 65%;
