@@ -1,0 +1,261 @@
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:100);
+@import url(https://fonts.googleapis.com/css?family=Droid+Sans+Mono);
+
+/*--------------------------------------*/
+
+*
+	{
+	margin: 0;
+	padding: 0;
+
+	border: 0;
+}
+
+/* Styles for layout
+-----------------------------------------------------------------------------*/
+
+.clear
+	{
+	clear:both;
+}
+
+.right
+	{
+	float: right;
+}
+
+
+
+.left
+	{
+	float: left;
+}
+
+#wrapper
+	{
+	width: 80%; /* Set page width here - you can also use percentage */
+	text-align:left;
+	margin-left:auto;
+	margin-right:auto;
+	background-color: #FFFFFF;
+}
+
+/* Headers
+-----------------------------------------------------------------------------*/
+
+.mainHeader{
+	color: #000;
+	background-image: url("../img/mainHeaderImage.jpg");
+	background-size: contain;
+	font-weight: bold;
+}
+
+
+.connectHeader{
+	font-size: 65%;
+}
+.fa-facebook-square{
+	color: #3b5998;
+	padding: 10px 10px;
+	font-size: 150%;
+	background-color: #FFF;
+	border-radius: 25%;
+}
+.fa-google-plus-square{
+	color: #C63D2D;
+	padding: 10px 10px;
+	font-size: 150%;
+	background-color: #FFF;
+	border-radius: 25%;
+}
+.fa-linkedin-square{
+	color: #4875B4;
+	padding: 10px 10px;
+	font-size: 150%;
+	background-color: #FFF;
+	border-radius: 25%;
+}
+.contactHeader{
+	font-weight: bold;
+	color: #000;
+}
+
+.inline-kevin{
+	padding: 15px 15px;
+	position: absolute;
+	left: 240px;
+	top: 15px;
+}
+
+/*Body Elements
+------------------------------*/
+body
+	{
+	font: 300%/1.5  "Alegreya Sans", "Lucida Sans", Tahoma, Verdana, sans-serif;
+	color: #000;
+	text-align:center;
+	background-color: #7ec0ee;
+	/*background-image: url(../img/bgimage.jpg);*/
+}
+
+.contactMeSection{
+	padding: 10px 10px;
+}
+
+.list li{
+	margin-left: 15px;
+}
+
+.innerList{
+	margin-left: 30px;
+}
+
+.submitButton{
+	border-radius: 10px;
+	padding: 3px 3px;
+}
+
+.messageForm{
+	width:500px;
+	height: 200px;
+	font-size: 15pt;
+	font-weight: bold;
+}
+
+.submitButton{
+	box-shadow: 5px 5px 2px;
+}
+
+/*---------------------------*/
+.educationSection{
+	background-color: #FFF;
+	border-radius: 25px;
+}
+.educationColHead{
+	font-weight: bold;
+	padding: 10px 10px;
+	color: #000;
+	font-size: 30pt;
+	border-bottom: 1px solid;
+}
+.educationColBody{
+	font-weight: normal;
+	font-size: 20pt;
+	padding: 10px 10px;
+	text-align: left;
+}
+.fa-graduation-cap{
+	padding-left: 10pt;
+}
+
+.uvuLogo{
+	width: 75%;
+	padding-left: 50px;
+}
+
+.weberStateLogo{
+	width: 75%;
+	padding-left: 50px;
+}
+/*--------------------------------*/
+.experienceSection{
+	background-color: #FFF;
+	border-radius: 25px;
+}
+.experienceColHead{
+	font-weight: bold;
+	padding: 10px 10px;
+	color: #000;
+	font-size: 30pt;
+	border-bottom: 1px solid;
+}
+.experienceColBody{
+	font-weight: normal;
+	font-size: 20pt;
+	padding: 10px 10px;
+	text-align: left;
+}
+
+.fa-building-o{
+	padding-left: 10pt;
+}
+/*---------------------------------*/
+.skillsSection{
+	background-color: #FFF;
+	border-radius: 25px;
+}
+.skillsColHead{
+	font-weight: bold;
+	padding: 10px 10px;
+	color: #000;
+	font-size: 30pt;
+	border-bottom: 1px solid;
+}
+.skillsColBody{
+	font-weight: normal;
+	font-size: 20pt;
+	padding: 10px 10px;
+	text-align: left;
+}
+
+.fa-laptop{
+	padding-left: 10pt;
+}
+/*---------------------------------*/
+
+
+/* Typography
+-----------------------------------------------------------------------------*/
+
+h1
+	{
+		font-weight: bold;
+		padding: 10px 10px;
+		color: #000;
+		font-size: 30pt;
+		border-bottom: 1px solid;
+}
+
+h2
+	{
+		text-decoration: underline;
+		font-weight: bold;
+		font-size: 20pt;
+}
+
+h3
+	{
+		text-align: left;
+		text-decoration: underline;
+		font-size: 16pt;
+		font-weight: 600;
+}
+
+h4
+	{
+	font-size: 1.6em; /* Equivalent to 18pt */
+}
+
+h5
+	{
+	font-size: 1.4em; /* Equivalent to 14pt */
+}
+
+p, q, cite
+	{
+	text-align: left;
+	font: 12pt "Droid Sans Mono";
+
+}
+
+ol, dl, li, ul
+	{
+		font: 12pt "Droid Sans Mono";
+		list-style-position: inside;
+
+}
+
+dd, dt
+	{
+
+}
