@@ -205,6 +205,7 @@ body
 	font-size: 20pt;
 	padding: 10px 10px;
 	text-align: left;
+	line-height: 400%;
 }
 
 .fa-laptop{
@@ -212,8 +213,8 @@ body
 }
 
 .skillsPic{
-	width: 75%;
-	padding-left: 50px;
+	width: 100%;
+	padding: 15px 15px;
 }
 /*---------------------------------*/
 
