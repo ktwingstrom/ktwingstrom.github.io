@@ -45,6 +45,7 @@
 .site{
 	background-image: url("../img/headerBackground.jpg");
 	height: auto;
+	background-repeat: no-repeat;
 	width: 100%;
 }
 .mainHeader{
