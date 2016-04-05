@@ -51,7 +51,6 @@
 .mainHeader{
 	color: #000;
 	background-image: url("../img/mainHeaderImage.jpg");
-	background-size: contain;
 	font-weight: bold;
 }
 
@@ -86,9 +85,14 @@
 
 .inline-kevin{
 	padding: 15px 15px;
-	position: absolute;
-	left: 240px;
-	top: 15px;
+	display: block;
+	text-align: center;
+}
+
+.headshot{
+		text-align: center;
+		background-image: url("../img/kevin.jpg");
+		background-position: center;
 }
 
 /*Body Elements
