@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Kevin Twingstrom Resume</title>
-
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/3.1.0/octicons.min.css">
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
@@ -91,7 +90,7 @@
               <li>Team Leadership</li>
               <li>Sales</li><br>
               </ul></p>
-              <img class = "skillsPic" src="img/skills.jpg">
+              <img class = "img-responsive skillsPic" src="img/skills.jpg">
         </div></div></div>
     </div>
   </div></div>
@@ -102,7 +101,7 @@
         <div class = "col-md-3"></div>
         <div class = "col-md-6"><div class = "contactMeSection">
             <h4>Contact Me!</h4>
-              <form action = "php/messageBody.php" method= "POST">
+
                 Name:<br>
                 <input type="text" name= "name" class= "nameForm"><br>
                 E-mail:<br>
@@ -110,12 +109,22 @@
                 Message:<br>
                 <textarea type="text" name= "message" class= "messageForm" maxlength="1000"></textarea><br><br>
                 <!--<a href="mailto:recipient@domain.com?cc=other@domain.com&bcc=hidden@domain.com&subject=Enquiry%20regarding%20product%20#0022&body=$messageBody"><button>Text</button></a>-->
-                <input type="Submit" value="Submit" class = "submitButton">
-              </form>
+                <input type="Button" onclick="sendMessage()" value="Submit" class = "submitButton"></button>
+
             </div><!--end of contactMeSection-->
           </div>
         <div class = "col-md-3"></div>
       </div><!--end of containter class-->
 
   </body>
+  <!--This is where I keep my js code-->
+  <script>
+  function sendMessage()
+  {
+    var name = name;
+    var email = email;
+    var message = message;
+    window.alert("Hello");
+  }
+  </script>
 </html>
