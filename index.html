@@ -103,11 +103,11 @@
             <h4>Contact Me!</h4>
 
                 Name:<br>
-                <input type="text" name= "name" class= "nameForm"><br>
+                <input id= "userName" type="text" name= "name" class= "nameForm"><br>
                 E-mail:<br>
-                <input type="text" name= "email" class= "emailForm"><br>
+                <input  id = "userEmail" type="text" name= "email" class= "emailForm"><br>
                 Message:<br>
-                <textarea type="text" name= "message" class= "messageForm" maxlength="1000"></textarea><br><br>
+                <textarea id= "userMessage" type="text" name= "message" class= "messageForm" maxlength="1000"></textarea><br><br>
                 <!--<a href="mailto:recipient@domain.com?cc=other@domain.com&bcc=hidden@domain.com&subject=Enquiry%20regarding%20product%20#0022&body=$messageBody"><button>Text</button></a>-->
                 <input type="Button" onclick="sendMessage()" value="Submit" class = "submitButton"></button>
 
@@ -121,10 +121,10 @@
   <script>
   function sendMessage()
   {
-    var name = name;
-    var email = email;
-    var message = message;
-    window.alert("Hello");
+    var name = document.getElementById("userName").value;
+    var email = document.getElementById("userEmail").value;
+    var message = document.getElementById("userMessage").value;
+    window.location.href = 'mailto:ktwingstrom@gmail.com&subject=RE:%20Resume%20Website&body='+name+'%0A'+email+'%0A%0A'+message+'';
   }
   </script>
 </html>
