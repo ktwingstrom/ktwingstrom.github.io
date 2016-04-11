@@ -29,9 +29,9 @@ function sendMessage()
     }
     else
     {
-      navigator.registerProtocolHandler("mailto",
+      /*navigator.registerProtocolHandler("mailto",
                                   "https://mail.google.com/mail/?extsrc=mailto&url=%s",
-                                  "Gmail");
+                                  "Gmail");*/
       window.location.href = 'mailto:ktwingstrom@gmail.com&subject=RE:%20Resume%20Website&body='+name+'%0A'+email+'%0A%0A'+message+'';
     }
 }
