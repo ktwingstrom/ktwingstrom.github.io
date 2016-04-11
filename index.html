@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-<div class = "site">  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Kevin Twingstrom Resume</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/3.1.0/octicons.min.css">
-    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="css/resumestyle.css">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kevin Twingstrom Resume</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/3.1.0/octicons.min.css">
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+<script src="https://cdn.jsdelivr.net/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="js/sendMessage.js"></script>
+<link rel="stylesheet" type="text/css" href="css/resumestyle.css">
 
-    <!--[if lt IE 9]>
-      <script src="https://cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+<div class = "site">
+  <head>
     <div class = "connectHeader">Connect with me<br>
     <a target = "_blank" href = "https://www.facebook.com/twinkyman90"><i class="fa fa-facebook-square"></i></a>
     <a target = "_blank" href = "https://www.linkedin.com/in/kevin-twingstrom-65a20a113?trk=nav_responsive_tab_profile"><i class="fa fa-linkedin-square"></i></a>
@@ -24,9 +24,6 @@
   </head>
 
   <body>
-    <script src="https://cdn.jsdelivr.net/jquery/2.1.3/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-
   <div class = "headshot">
     <img class = "kevinHeadShot img-circle" src="img/kevin.jpg"></img>
   <!--end of headshot div--></div>
@@ -110,7 +107,6 @@
                 <input  id = "userEmail" type="text" name= "email" class= "emailForm"><br>
                 Message:<br>
                 <textarea id= "userMessage" type="text" name= "message" class= "messageForm" maxlength="1000"></textarea><br><br>
-                <!--<a href="mailto:recipient@domain.com?cc=other@domain.com&bcc=hidden@domain.com&subject=Enquiry%20regarding%20product%20#0022&body=$messageBody"><button>Text</button></a>-->
                 <input type="Button" onclick="sendMessage()" value="Submit" class = "submitButton"></button>
 
             </div><!--end of contactMeSection-->
@@ -120,13 +116,4 @@
 
   </body>
   <!--This is where I keep my js code-->
-  <script>
-  function sendMessage()
-  {
-    var name = document.getElementById("userName").value;
-    var email = document.getElementById("userEmail").value;
-    var message = document.getElementById("userMessage").value;
-    window.location.href = 'mailto:ktwingstrom@gmail.com&subject=RE:%20Resume%20Website&body='+name+'%0A'+email+'%0A%0A'+message+'';
-  }
-  </script>
 </html>
