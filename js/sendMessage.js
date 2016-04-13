@@ -25,13 +25,13 @@ function sendMessage()
 }
     if(detectmob()==false)
     {
-      window.location.href = 'mailto:ktwingstrom@gmail.com&subject=RE:%20Resume%20Website&body='+name+'%0A'+email+'%0A%0A'+message+'';
+      window.location.href = 'mailto:ktwingstrom@gmail.com?subject=RE:%20Resume%20Website&body='+name+'%0A'+email+'%0A%0A'+message+'';
     }
     else
     {
       /*navigator.registerProtocolHandler("mailto",
                                   "https://mail.google.com/mail/?extsrc=mailto&url=%s",
                                   "Gmail");*/
-      window.location.href = 'mailto:ktwingstrom@gmail.com&subject=RE:%20Resume%20Website&body='+name+'%0A'+email+'%0A%0A'+message+'';
+      window.location.href = 'mailto:ktwingstrom@gmail.com?subject=RE:%20Resume%20Website&body='+name+'%0A'+email+'%0A%0A'+message+'';
     }
 }
