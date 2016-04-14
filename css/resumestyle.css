@@ -110,6 +110,10 @@ body
 	margin-left: 30px;
 }
 
+.contactMeButtonDiv{
+	padding: 10px 10px;
+}
+
 .messageForm{
 	width:500px;
 	height: 200px;
@@ -131,6 +135,11 @@ body
 	padding: 3px 3px;
 }
 .resetButton{
+	border-radius: 10px;
+	padding: 3px 3px;
+}
+
+.contactMeButton{
 	border-radius: 10px;
 	padding: 3px 3px;
 }
