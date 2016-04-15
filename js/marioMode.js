@@ -8,7 +8,7 @@ $(document).keyup(function(e) {
     input += e.which;
 
     clearTimeout(timer);
-    timer = setTimeout(function() { input = ""; }, 200);
+    timer = setTimeout(function() { input = ""; }, 2000);
 
     check_input();
 });
@@ -17,8 +17,8 @@ function check_input() {
     if(input == secret) {
         //the secret code
         alert("Welcome to Mario Mode!!");
-        $('.mainHeader').css('zIndex:-2');
-        $('.site').css('background-image','url(img/mario.jpg)','background-repeat:repeat');
+        $('#kevinPic').attr("src", 'img/marioHead.png').css("padding",'110px 110px');
+        $('.site').css('background-image','url(img/mario.png)');
 
 
     }

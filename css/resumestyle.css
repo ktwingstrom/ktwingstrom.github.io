@@ -47,7 +47,7 @@
 	height: auto;
 	background-repeat: no-repeat;
 	width: 100%;
-	
+
 }
 .mainHeader{
 	color: #000;
@@ -143,6 +143,10 @@ body
 .contactMeButton{
 	border-radius: 10px;
 	padding: 3px 3px;
+}
+
+.contactMeButtonDiv{
+	padding-top: 10px;
 }
 
 /*---------------------------*/
