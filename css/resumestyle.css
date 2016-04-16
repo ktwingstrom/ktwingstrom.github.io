@@ -127,15 +127,15 @@ body
 	border-radius: 10px;
 }
 
-.nameForm{
+.firstNameForm{
+	border-radius: 10px;
+}
+
+.lastNameForm{
 	border-radius: 10px;
 }
 
 .submitButton{
-	border-radius: 10px;
-	padding: 3px 3px;
-}
-.resetButton{
 	border-radius: 10px;
 	padding: 3px 3px;
 }

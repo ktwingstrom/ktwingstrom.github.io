@@ -9,10 +9,11 @@
 <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
 <script src="https://cdn.jsdelivr.net/jquery/2.1.3/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-<script src="js/sendMessage.js"></script>
+<!--<script src="js/sendMessage.js"></script>-->
 <script src="js/contactMeAnimation.js"></script>
 <script src="js/defaultPageSettings.js"></script>
 <script src="js/marioMode.js"></script>
+<?php include("/php/sendEmail.php");?>
 <link rel="stylesheet" type="text/css" href="css/resumestyle.css">
 
 <div class = "site">
@@ -104,14 +105,13 @@
       <div class = "row">
         <div class = "col-md-3"></div>
         <div class = "col-md-6"><div class = "contactMeSection">
-                Name:<br>
-                <input id= "userName" type="text" name= "name" class= "nameForm"><br>
-                E-mail:<br>
-                <input  id = "userEmail" type="text" name= "email" class= "emailForm"><br>
-                Message:<br>
-                <textarea id= "userMessage" type="text" name= "message" class= "messageForm" maxlength="1000"></textarea><br><br>
-                <input type="Button" onclick="sendMessage()" value="Submit" class = "submitButton"></button>
-
+          <form action="php/sendEmail.php" method="post">
+              First Name: <br><input type="text" name="first_name" class = "firstNameForm"><br>
+              Last Name: <br><input type="text" name="last_name" class = "lastNameForm"><br>
+              Email: <br><input type="text" name="email" class = "emailForm"><br>
+              Message:<br><textarea rows="5" name="message" cols="30" class = "messageForm"></textarea><br>
+              <input type="submit" name="submit" value="Submit" class = "submitButton">
+         </form>
             </div><!--end of contactMeSection-->
           </div>
         <div class = "col-md-3"></div>

@@ -1,4 +1,4 @@
-var secret = "7765827379"; //god
+var secret = "7765827379"; //mario
 var input = "";
 var timer;
 var mode = false;
