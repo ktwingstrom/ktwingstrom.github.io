@@ -17,7 +17,7 @@ function check_input() {
     if(input == secret) {
         //the secret code
         alert("Welcome to Mario Mode!!");
-        $('#kevinPic').attr("src", 'img/marioHead.png').css("padding",'110px 110px');
+        $('#kevinPic').attr("src", 'img/marioHead.png').css("padding",'130px 130px');
         $('.site').css('background-image','url(img/mario.png)');
 
 
