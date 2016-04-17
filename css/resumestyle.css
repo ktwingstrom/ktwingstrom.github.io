@@ -42,13 +42,14 @@
 
 /* Headers
 -----------------------------------------------------------------------------*/
-.site{
+#site{
 	background-image: url("../img/headerBackground.jpg");
 	height: auto;
 	background-repeat: no-repeat;
 	width: 100%;
 
 }
+
 .mainHeader{
 	color: #000;
 	background-image: url("../img/mainHeaderImage.jpg");
@@ -234,9 +235,6 @@ body
 	padding: 15px 15px;
 }
 
-.musicPlayer{
-	z-index: -2;
-}
 /*---------------------------------*/
 
 
