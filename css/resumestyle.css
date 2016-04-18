@@ -104,6 +104,16 @@ body
 	padding: 10px 10px;
 }
 
+.aboutMe{
+	background-color: #FFF;
+	border-radius: 25px;
+	padding: 10px 10px;
+}
+
+.mainContainer{
+	padding: 10px 10px;
+}
+
 .list li{
 	margin-left: 15px;
 }
@@ -265,15 +275,6 @@ h3
 		font-weight: 600;
 }
 
-h4
-	{
-	font-size: 1.6em; /* Equivalent to 18pt */
-}
-
-h5
-	{
-	font-size: 1.4em; /* Equivalent to 14pt */
-}
 
 p, q, cite
 	{
