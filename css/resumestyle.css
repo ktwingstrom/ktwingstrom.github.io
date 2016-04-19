@@ -116,6 +116,10 @@ body
 	border-radius: 25px;
 }
 
+.fa-info-circle{
+	padding-left: 10pt;
+	color: #E82C0C;
+}
 .aboutMeText{
 	text-align: center;
 }
