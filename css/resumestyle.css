@@ -57,7 +57,8 @@
 
 .connectHeader{
 	font-size: 65%;
-	background-color: #FF3842;
+	background-color: #539D75;
+
 
 }
 .fa-facebook-square{
@@ -118,7 +119,7 @@ body
 
 .fa-info-circle{
 	padding-left: 10pt;
-	color: #E82C0C;
+	color: #539D75;
 }
 .aboutMeText{
 	text-align: center;
@@ -200,7 +201,7 @@ body
 }
 .fa-graduation-cap{
 	padding-left: 10pt;
-	color: #E82C0C;
+	color: #539D75;
 }
 
 .uvuLogo{
@@ -235,7 +236,7 @@ body
 
 .fa-building-o{
 	padding-left: 10pt;
-	color: #E82C0C;
+	color: #539D75;
 }
 /*---------------------------------*/
 .skillsSection{
@@ -259,7 +260,7 @@ body
 
 .fa-laptop{
 	padding-left: 10pt;
-	color: #E82C0C;
+	color: #539D75;
 }
 
 .skillsPic{
@@ -269,7 +270,7 @@ body
 }
 
 .footer{
-	background-color: #FF3842;
+	background-color: #539D75;
 
 }
 /*---------------------------------*/
