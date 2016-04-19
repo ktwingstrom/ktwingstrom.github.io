@@ -43,7 +43,7 @@
 /* Headers
 -----------------------------------------------------------------------------*/
 #site{
-	background-image: url("../img/headerBackground.jpg");
+	background-image: url("../img/headerBackground.jpg");*/
 	height: auto;
 	background-repeat: no-repeat;
 	width: 100%;
@@ -51,13 +51,15 @@
 }
 
 .mainHeader{
-	color: #000;
-	background-image: url("../img/mainHeaderImage.jpg");
+	color: #FFF;
+	background-image: url("../img/black-header.png");
 	font-weight: bold;
 }
 
 .connectHeader{
 	font-size: 65%;
+	background-color: #FF3842;
+
 }
 .fa-facebook-square{
 	color: #3b5998;
@@ -89,6 +91,10 @@
 	padding-top: 20px;
 }
 
+.img-circle{
+	border:1px outset #000;
+}
+
 /*Body Elements
 ------------------------------*/
 body
@@ -96,8 +102,10 @@ body
 	font: 300%/1.5  "Alegreya Sans", "Lucida Sans", Tahoma, Verdana, sans-serif;
 	color: #000;
 	text-align:center;
-	background-color: #7ec0ee;
-	/*background-image: url(../img/bgimage.jpg);*/
+	background-color: #E6F3F7;
+	background-image: url("../img/headerBackground.jpg");
+	background-size: cover;
+
 }
 
 .contactMeSection{
@@ -105,7 +113,7 @@ body
 }
 
 .aboutMe{
-	background-color: #FFF;
+	background-color: #D3D3D3;
 	border-radius: 25px;
 	padding: 10px 10px;
 }
@@ -132,28 +140,34 @@ body
 	font-size: 15pt;
 	font-weight: bold;
 	border-radius: 10px;
+	border:1px outset #000;
 }
 
 .emailForm{
 	border-radius: 10px;
+	border:1px outset #000;
 }
 
 .firstNameForm{
 	border-radius: 10px;
+	border:1px outset #000;
 }
 
 .lastNameForm{
 	border-radius: 10px;
+	border:1px outset #000;
 }
 
 .submitButton{
 	border-radius: 10px;
 	padding: 3px 3px;
+	border:1px outset #000;
 }
 
 .contactMeButton{
 	border-radius: 10px;
 	padding: 3px 3px;
+	border:1px outset #000;
 }
 
 .contactMeButtonDiv{
@@ -162,7 +176,7 @@ body
 
 /*---------------------------*/
 .educationSection{
-	background-color: #FFF;
+	background-color: #D3D3D3;
 	border-radius: 25px;
 }
 .educationColHead{
@@ -180,6 +194,7 @@ body
 }
 .fa-graduation-cap{
 	padding-left: 10pt;
+	color: #E82C0C;
 }
 
 .uvuLogo{
@@ -195,7 +210,7 @@ body
 }
 /*--------------------------------*/
 .experienceSection{
-	background-color: #FFF;
+	background-color: #D3D3D3;
 	border-radius: 25px;
 }
 .experienceColHead{
@@ -214,10 +229,11 @@ body
 
 .fa-building-o{
 	padding-left: 10pt;
+	color: #E82C0C;
 }
 /*---------------------------------*/
 .skillsSection{
-	background-color: #FFF;
+	background-color: #D3D3D3;
 	border-radius: 25px;
 }
 .skillsColHead{
@@ -237,6 +253,7 @@ body
 
 .fa-laptop{
 	padding-left: 10pt;
+	color: #E82C0C;
 }
 
 .skillsPic{
@@ -245,6 +262,10 @@ body
 	padding: 15px 15px;
 }
 
+.footer{
+	background-color: #FF3842;
+
+}
 /*---------------------------------*/
 
 
