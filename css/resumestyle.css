@@ -2,7 +2,6 @@
 @import url(https://fonts.googleapis.com/css?family=Jura:500);
 
 /*--------------------------------------*/
-
 *
 	{
 	margin: 0;
@@ -115,7 +114,10 @@ body
 .aboutMe{
 	background-color: #D3D3D3;
 	border-radius: 25px;
-	padding: 10px 10px;
+}
+
+.aboutMeText{
+	text-align: center;
 }
 
 .mainContainer{
