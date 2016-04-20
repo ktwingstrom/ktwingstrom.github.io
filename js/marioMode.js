@@ -3,7 +3,6 @@ var input = "";
 var timer;
 var mode = false;
 
-
 $(document).keyup(function(e) {
     //alert(e.which);
     input += e.which;
@@ -21,6 +20,9 @@ function check_input() {
         $('.kevinHeadShot').hide();
         $('.mainContainer').prepend('<div align="center"><object width="640" height="480"><param name="movie" value="http://www.embeddablegames.net/embedgames/superflashmariobros.swf"><param name="quality" value="high"><embed src="http://www.embeddablegames.net/embedgames/superflashmariobros.swf" quality="high" width="640" height="400" type="application/x-shockwave-flash" pluginspage= "http://www.macromedia.com/go/getflashplayer"></embed></object><br/></div><p>');
         $('body').css('background-image', 'url(img/marioLuigiYoshi.jpg)').css('background-size','30% auto');
+        $('body').append('<audio autoplay="autoplay"><source src="http://www.themushroomkingdom.net/sounds/wav/mk64/mk64_mario02.wav" /></audio> ');
+
+
 
     }
 }
