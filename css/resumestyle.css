@@ -41,25 +41,14 @@
 
 /* Headers
 -----------------------------------------------------------------------------*/
-#site{
-	background-image: url("../img/headerBackground.jpg");*/
-	height: auto;
-	background-repeat: no-repeat;
-	width: 100%;
-
-}
-
 .mainHeader{
 	color: #FFF;
 	background-image: url("../img/black-header.png");
 	font-weight: bold;
 }
-
 .connectHeader{
 	font-size: 65%;
 	background-color: #539D75;
-
-
 }
 .fa-facebook-square{
 	color: #3b5998;
@@ -81,6 +70,15 @@
 	font-size: 150%;
 	background-color: #FFF;
 	border-radius: 25%;
+}
+.fa-linkedin-square:hover{
+	font-size: 200%;
+}
+.fa-google-plus-square:hover{
+	font-size: 200%;
+}
+.fa-facebook-square:hover{
+	font-size: 200%;
 }
 .contactHeader{
 	font-weight: bold;
