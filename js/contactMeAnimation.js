@@ -1,5 +1,5 @@
 function animateContactMe()
 {
-  $('.contactMeSection').slideDown(500);
+  $('.contactMeSection').slideToggle("slow",function(){});
   $('html,body').animate({ scrollTop: 9999 }, 'slow');
 }
